@@ -1,0 +1,10 @@
+C:\Users\mikae\source\repos\seabattle\seabattle\seabattle\seabattle\bin\Debug\seabattle.exe.config
+C:\Users\mikae\source\repos\seabattle\seabattle\seabattle\seabattle\bin\Debug\seabattle.exe
+C:\Users\mikae\source\repos\seabattle\seabattle\seabattle\seabattle\bin\Debug\seabattle.pdb
+C:\Users\mikae\source\repos\seabattle\seabattle\seabattle\seabattle\obj\Debug\seabattle.csprojAssemblyReference.cache
+C:\Users\mikae\source\repos\seabattle\seabattle\seabattle\seabattle\obj\Debug\seabattle.Properties.Resources.resources
+C:\Users\mikae\source\repos\seabattle\seabattle\seabattle\seabattle\obj\Debug\seabattle.csproj.GenerateResource.cache
+C:\Users\mikae\source\repos\seabattle\seabattle\seabattle\seabattle\obj\Debug\seabattle.csproj.CoreCompileInputs.cache
+C:\Users\mikae\source\repos\seabattle\seabattle\seabattle\seabattle\obj\Debug\seabattle.exe
+C:\Users\mikae\source\repos\seabattle\seabattle\seabattle\seabattle\obj\Debug\seabattle.pdb
+C:\Users\mikae\source\repos\seabattle\seabattle\seabattle\seabattle\obj\Debug\seabattle.Form1.resources

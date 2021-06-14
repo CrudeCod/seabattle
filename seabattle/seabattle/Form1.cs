@@ -16,5 +16,11 @@ namespace seabattle
         {
             InitializeComponent();
         }
+
+        private void mainMenuStart_Click(object sender, EventArgs e)
+        {
+            new MainForm().Show();
+            this.Hide();
+        }
     }
 }

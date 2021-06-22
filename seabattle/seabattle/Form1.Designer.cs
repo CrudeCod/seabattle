@@ -41,12 +41,13 @@
             this.mainMenuLabel.Size = new System.Drawing.Size(646, 29);
             this.mainMenuLabel.TabIndex = 0;
             this.mainMenuLabel.Text = "Sea Battle by Mikael Khudiev and Savva Krasnokutskiy";
+            this.mainMenuLabel.Click += new System.EventHandler(this.mainMenuLabel_Click);
             // 
             // mainMenuStart
             // 
-            this.mainMenuStart.Location = new System.Drawing.Point(299, 243);
+            this.mainMenuStart.Location = new System.Drawing.Point(201, 282);
             this.mainMenuStart.Name = "mainMenuStart";
-            this.mainMenuStart.Size = new System.Drawing.Size(188, 76);
+            this.mainMenuStart.Size = new System.Drawing.Size(398, 41);
             this.mainMenuStart.TabIndex = 1;
             this.mainMenuStart.Text = "START!!!";
             this.mainMenuStart.UseVisualStyleBackColor = true;

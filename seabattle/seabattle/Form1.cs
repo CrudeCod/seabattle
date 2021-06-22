@@ -12,6 +12,7 @@ namespace seabattle
 {
     public partial class Form1 : Form
     {
+        int a = (int)Game.FieldState.hit; //testing
         public Form1()
         {
             InitializeComponent();
@@ -21,6 +22,15 @@ namespace seabattle
         {
             new MainForm().Show();
             this.Hide();
+        }
+
+        private void mainMenuLabel_Click(object sender, EventArgs e)
+        {
+            Console.WriteLine("test");
+            if (Game.ver == "1.0") {
+                Console.WriteLine("Success!"); //testing
+            }
+          
         }
     }
 }

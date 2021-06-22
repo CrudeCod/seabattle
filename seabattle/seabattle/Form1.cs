@@ -32,5 +32,18 @@ namespace seabattle
             }
           
         }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Made by Mikael Khudiev and Savva Krasnokutskiy " +
+           "as a small scale project to hone our skills in C#. In this classic game " +
+           ", you have to sink the opponents ships, playing either against AI" +
+           " or a real player on the network.", "About");
+        }
     }
 }

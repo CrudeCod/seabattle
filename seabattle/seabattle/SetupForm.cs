@@ -36,9 +36,21 @@ namespace seabattle
 
 
         }
+
+        public void clearButtonText(){
+            foreach (var button in this.Controls.OfType<Button>()) //clear all text
+            {
+                if (button.Text.Equals("4") || button.Text.Equals("5") || button.Text.Equals("6") || button.Text.Equals("7")) {
+                    button.Text = null;
+                }
+            }
+        }
+
+
         public void InitializeField() {
             //initialize the field to 0;
-            for(int i = 0; i<10; i++){
+                
+            for (int i = 0; i<10; i++){
                 for (int j = 0; j < 10; j++) {
 
                     field[i, j] = (int)Game.FieldState.empty; //type casts empty to an integer value (0)
@@ -50,8 +62,10 @@ namespace seabattle
         }
 
         private void Place(int xcoord,int ycoord, int ship) {
-            field[xcoord, ycoord] = ship;
+
+            field[xcoord-1, ycoord-1] = ship;
             placing = false;
+            //expand, maybe create a separate method for checking collisions?
         }
         private void button_Click(object sender, EventArgs e)
         {
@@ -62,8 +76,16 @@ namespace seabattle
             
 
             if (placing) {
-                Place(xcoord, ycoord,selectedShip);
-                Console.WriteLine("placed a " + selectedShip + " at " + xcoord + " " + ycoord);
+                if (field[xcoord - 1, ycoord - 1] == (int)Game.FieldState.empty) //checks if field is empty
+                { 
+                    //add a switch case to check which ship it is to place acccordihly
+                    //or maybe create a separate place method for each type of ship???
+
+                    Place(xcoord, ycoord, selectedShip);
+                    b.Text = selectedShip.ToString();
+                    Console.WriteLine("placed a " + selectedShip + " at " + xcoord + " " + ycoord); //debug
+                }
+                else { MessageBox.Show("A ship is already there!", "Ship present"); }
             }
 
 
@@ -72,6 +94,7 @@ namespace seabattle
         private void resetShips_Click(object sender, EventArgs e)
         {
             InitializeField();
+            clearButtonText();
         }
 
         private void placeButtons_Click(object sender, EventArgs e)
@@ -83,16 +106,60 @@ namespace seabattle
 
             switch (shipSelected) {
                 case "placeBattleship":
-                    selectedShip = (int)Game.FieldState.battleship;
+                    if (battleShipCount < 1)
+                    {
+                        Console.WriteLine("Can't place this ship anymore!");
+                        placing = false;
+                        selectedShip = (int)Game.FieldState.empty;
+                    }
+                    else
+                    {
+                        selectedShip = (int)Game.FieldState.battleship;
+                        battleShipCount--;
+                        
+                    }
                     break;
                 case "placeCruiser":
-                    selectedShip = (int)Game.FieldState.cruiser;
+                    if (cruiserCount < 1)
+                    {
+                        Console.WriteLine("Can't place this ship anymore!");
+                        placing = false;
+                        selectedShip = (int)Game.FieldState.empty;
+                    }
+                    else
+                    {
+                        selectedShip = (int)Game.FieldState.cruiser;
+                        cruiserCount--;
+                    }
                     break;
+
                 case "placeDestroyer":
-                    selectedShip = (int)Game.FieldState.destroyer;
+                    if (destroyerCount < 1)
+                    {
+                        Console.WriteLine("Can't place this ship anymore!");
+                        placing = false;
+                        selectedShip = (int)Game.FieldState.empty;
+                    }
+                    else
+                    {
+                        selectedShip = (int)Game.FieldState.destroyer;
+                        destroyerCount--;
+                    }
+
                     break;
                 case "placeSubmarine":
-                    selectedShip = (int)Game.FieldState.submarine;
+                    if (torpedoBoatCount < 1)
+                    {
+                        Console.WriteLine("Can't place this ship anymore!");
+                        placing = false;
+                        selectedShip = (int)Game.FieldState.empty;
+                    }
+                    else
+                    {
+                        selectedShip = (int)Game.FieldState.submarine;
+                        torpedoBoatCount--;
+                    }
+
                     break;               
             }
         }

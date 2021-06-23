@@ -9,3 +9,4 @@ C:\Users\mikae\source\repos\seabattle\seabattle\seabattle\seabattle\obj\Debug\se
 C:\Users\mikae\source\repos\seabattle\seabattle\seabattle\seabattle\obj\Debug\seabattle.pdb
 C:\Users\mikae\source\repos\seabattle\seabattle\seabattle\seabattle\obj\Debug\seabattle.MainMenu.resources
 C:\Users\mikae\source\repos\seabattle\seabattle\seabattle\seabattle\obj\Debug\seabattle.SetupForm.resources
+C:\Users\mikae\source\repos\seabattle\seabattle\seabattle\seabattle\obj\Debug\seabattle.BattleForm.resources

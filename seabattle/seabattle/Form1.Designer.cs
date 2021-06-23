@@ -41,11 +41,11 @@
             // 
             this.mainMenuLabel.AutoSize = true;
             this.mainMenuLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mainMenuLabel.Location = new System.Drawing.Point(91, 67);
+            this.mainMenuLabel.Location = new System.Drawing.Point(338, 78);
             this.mainMenuLabel.Name = "mainMenuLabel";
-            this.mainMenuLabel.Size = new System.Drawing.Size(646, 29);
+            this.mainMenuLabel.Size = new System.Drawing.Size(133, 29);
             this.mainMenuLabel.TabIndex = 0;
-            this.mainMenuLabel.Text = "Sea Battle by Mikael Khudiev and Savva Krasnokutskiy";
+            this.mainMenuLabel.Text = "Sea Battle";
             this.mainMenuLabel.Click += new System.EventHandler(this.mainMenuLabel_Click);
             // 
             // mainMenuStart
@@ -81,7 +81,7 @@
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(116, 26);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -101,6 +101,8 @@
             this.Controls.Add(this.mainMenuLabel);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
+            this.MaximumSize = new System.Drawing.Size(818, 497);
+            this.MinimumSize = new System.Drawing.Size(818, 497);
             this.Name = "Form1";
             this.Text = "Form1";
             this.menuStrip1.ResumeLayout(false);

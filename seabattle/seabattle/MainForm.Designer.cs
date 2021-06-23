@@ -128,6 +128,7 @@
             this.j9 = new System.Windows.Forms.Button();
             this.i10 = new System.Windows.Forms.Button();
             this.j10 = new System.Windows.Forms.Button();
+            this.labelx = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // a1
@@ -1030,11 +1031,22 @@
             this.j10.UseVisualStyleBackColor = true;
             this.j10.Click += new System.EventHandler(this.button_Click);
             // 
+            // labelx
+            // 
+            this.labelx.AutoSize = true;
+            this.labelx.Location = new System.Drawing.Point(206, 40);
+            this.labelx.Name = "labelx";
+            this.labelx.Size = new System.Drawing.Size(461, 17);
+            this.labelx.TabIndex = 100;
+            this.labelx.Text = "  a            b            c          d          e          f          g        " +
+    "  h          i           j";
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(955, 580);
+            this.Controls.Add(this.labelx);
             this.Controls.Add(this.j10);
             this.Controls.Add(this.i10);
             this.Controls.Add(this.j9);
@@ -1139,6 +1151,7 @@
             this.Name = "MainForm";
             this.Text = "MainForm";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -1244,5 +1257,6 @@
         private System.Windows.Forms.Button i10;
         private System.Windows.Forms.Button j10;
         private System.Windows.Forms.Button g8;
+        private System.Windows.Forms.Label labelx;
     }
 }

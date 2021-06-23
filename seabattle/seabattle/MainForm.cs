@@ -18,8 +18,9 @@ namespace seabattle
         private byte cruiserCount;
         private byte destroyerCount;
         private byte torpedoBoatCount;
+        private byte selectedShip; //ship that is currently being placed by the player
 
-        int[,] field = new int[10, 10];
+        public int[,] field = new int[10, 10];
 
         public MainForm()
         {
@@ -51,8 +52,40 @@ namespace seabattle
 
         private void button_Click(object sender, EventArgs e)
         {
-            sender = (Button)sender; //type-cast the sender object to button to work with it
+            Button b = (Button)sender; //type-cast the sender object to button to work with it
 
+
+
+        }
+
+        private void resetShips_Click(object sender, EventArgs e)
+        {
+            InitializeField();
+        }
+
+        private void placeButtons_Click(object sender, EventArgs e)
+        {
+            Button b = (Button)sender; //type-cast the sender object to button to work with it
+            if (b.Name.ToString() == "placeBattleship") {
+                selectedShip = (int)Game.FieldState.battleship; //selects the ship as battleship
+            }
+
+            string shipSelected = b.Name.ToString();
+
+            switch (shipSelected) {
+                case "placeBattleship":
+                    selectedShip = (int)Game.FieldState.battleship;
+                    break;
+                case "placeCruiser":
+                    selectedShip = (int)Game.FieldState.cruiser;
+                    break;
+                case "placeDestroyer":
+                    selectedShip = (int)Game.FieldState.destroyer;
+                    break;
+                case "placeSubmarine":
+                    selectedShip = (int)Game.FieldState.submarine;
+                    break;               
+            }
         }
     }
 }

@@ -129,6 +129,11 @@
             this.i10 = new System.Windows.Forms.Button();
             this.j10 = new System.Windows.Forms.Button();
             this.labelx = new System.Windows.Forms.Label();
+            this.resetShips = new System.Windows.Forms.Button();
+            this.placeBattleship = new System.Windows.Forms.Button();
+            this.placeCruiser = new System.Windows.Forms.Button();
+            this.placeDestroyer = new System.Windows.Forms.Button();
+            this.placeSubmarine = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // a1
@@ -1041,11 +1046,66 @@
             this.labelx.Text = "  a            b            c          d          e          f          g        " +
     "  h          i           j";
             // 
+            // resetShips
+            // 
+            this.resetShips.Location = new System.Drawing.Point(76, 108);
+            this.resetShips.Name = "resetShips";
+            this.resetShips.Size = new System.Drawing.Size(75, 23);
+            this.resetShips.TabIndex = 101;
+            this.resetShips.Text = "reset";
+            this.resetShips.UseVisualStyleBackColor = true;
+            this.resetShips.Click += new System.EventHandler(this.resetShips_Click);
+            // 
+            // placeBattleship
+            // 
+            this.placeBattleship.Location = new System.Drawing.Point(12, 582);
+            this.placeBattleship.Name = "placeBattleship";
+            this.placeBattleship.Size = new System.Drawing.Size(166, 36);
+            this.placeBattleship.TabIndex = 102;
+            this.placeBattleship.Text = "Place battleship (4x1)";
+            this.placeBattleship.UseVisualStyleBackColor = true;
+            this.placeBattleship.Click += new System.EventHandler(this.placeButtons_Click);
+            // 
+            // placeCruiser
+            // 
+            this.placeCruiser.Location = new System.Drawing.Point(184, 582);
+            this.placeCruiser.Name = "placeCruiser";
+            this.placeCruiser.Size = new System.Drawing.Size(166, 36);
+            this.placeCruiser.TabIndex = 103;
+            this.placeCruiser.Text = "Place cruiser (3x2)";
+            this.placeCruiser.UseVisualStyleBackColor = true;
+            this.placeCruiser.Click += new System.EventHandler(this.placeButtons_Click);
+            // 
+            // placeDestroyer
+            // 
+            this.placeDestroyer.Location = new System.Drawing.Point(356, 582);
+            this.placeDestroyer.Name = "placeDestroyer";
+            this.placeDestroyer.Size = new System.Drawing.Size(166, 36);
+            this.placeDestroyer.TabIndex = 104;
+            this.placeDestroyer.Text = "Place destroyer (2x3)";
+            this.placeDestroyer.UseVisualStyleBackColor = true;
+            this.placeDestroyer.Click += new System.EventHandler(this.placeButtons_Click);
+            // 
+            // placeSubmarine
+            // 
+            this.placeSubmarine.Location = new System.Drawing.Point(528, 582);
+            this.placeSubmarine.Name = "placeSubmarine";
+            this.placeSubmarine.Size = new System.Drawing.Size(166, 36);
+            this.placeSubmarine.TabIndex = 105;
+            this.placeSubmarine.Text = "Place sub (1x4)";
+            this.placeSubmarine.UseVisualStyleBackColor = true;
+            this.placeSubmarine.Click += new System.EventHandler(this.placeButtons_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(955, 580);
+            this.ClientSize = new System.Drawing.Size(883, 630);
+            this.Controls.Add(this.placeSubmarine);
+            this.Controls.Add(this.placeDestroyer);
+            this.Controls.Add(this.placeCruiser);
+            this.Controls.Add(this.placeBattleship);
+            this.Controls.Add(this.resetShips);
             this.Controls.Add(this.labelx);
             this.Controls.Add(this.j10);
             this.Controls.Add(this.i10);
@@ -1258,5 +1318,10 @@
         private System.Windows.Forms.Button j10;
         private System.Windows.Forms.Button g8;
         private System.Windows.Forms.Label labelx;
+        private System.Windows.Forms.Button resetShips;
+        private System.Windows.Forms.Button placeBattleship;
+        private System.Windows.Forms.Button placeCruiser;
+        private System.Windows.Forms.Button placeDestroyer;
+        private System.Windows.Forms.Button placeSubmarine;
     }
 }

@@ -10,10 +10,9 @@ using System.Windows.Forms;
 
 namespace seabattle
 {
-    public partial class MainForm : Form
+    public partial class SetupForm : Form
     {
-        bool turn = true; //true means player 1 turn, false means player 2 turn.
-         //counters for ships
+         //counters for ships for placing purposes
         private byte battleShipCount;
         private byte cruiserCount;
         private byte destroyerCount;
@@ -22,7 +21,7 @@ namespace seabattle
 
         public int[,] field = new int[10, 10];
 
-        public MainForm()
+        public SetupForm()
         {
             InitializeComponent();
             InitializeVariable();

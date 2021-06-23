@@ -20,7 +20,7 @@ namespace seabattle
 
         private void mainMenuStart_Click(object sender, EventArgs e)
         {
-            new MainForm().Show();
+            new SetupForm().Show();
             this.Hide();
         }
 

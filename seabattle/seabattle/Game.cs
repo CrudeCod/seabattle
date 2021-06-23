@@ -13,12 +13,13 @@ namespace seabattle
         {
             empty,
             hit,
+            ship,
             carrier,
             battleship,
             cruiser,
             destroyer,
             submarine
-
+           
         }
         
 

@@ -1,6 +1,6 @@
 ﻿namespace seabattle
 {
-    partial class MainForm
+    partial class SetupForm
     {
         /// <summary>
         /// Required designer variable.

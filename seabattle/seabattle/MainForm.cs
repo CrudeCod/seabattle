@@ -40,7 +40,7 @@ namespace seabattle
             for(int i = 0; i<10; i++){
                 for (int j = 0; j < 10; j++) {
 
-                    field[i, j] = 0;
+                    field[i, j] = (int)Game.FieldState.empty; //type casts empty to an integer value (0)
                     
                 }                   
             }

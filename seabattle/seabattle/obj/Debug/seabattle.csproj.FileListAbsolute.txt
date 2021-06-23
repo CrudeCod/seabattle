@@ -7,5 +7,5 @@ C:\Users\mikae\source\repos\seabattle\seabattle\seabattle\seabattle\obj\Debug\se
 C:\Users\mikae\source\repos\seabattle\seabattle\seabattle\seabattle\obj\Debug\seabattle.csproj.CoreCompileInputs.cache
 C:\Users\mikae\source\repos\seabattle\seabattle\seabattle\seabattle\obj\Debug\seabattle.exe
 C:\Users\mikae\source\repos\seabattle\seabattle\seabattle\seabattle\obj\Debug\seabattle.pdb
-C:\Users\mikae\source\repos\seabattle\seabattle\seabattle\seabattle\obj\Debug\seabattle.Form1.resources
-C:\Users\mikae\source\repos\seabattle\seabattle\seabattle\seabattle\obj\Debug\seabattle.MainForm.resources
+C:\Users\mikae\source\repos\seabattle\seabattle\seabattle\seabattle\obj\Debug\seabattle.MainMenu.resources
+C:\Users\mikae\source\repos\seabattle\seabattle\seabattle\seabattle\obj\Debug\seabattle.SetupForm.resources

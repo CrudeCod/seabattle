@@ -18,6 +18,7 @@ namespace seabattle
         private byte destroyerCount;
         private byte torpedoBoatCount;
         private byte selectedShip; //ship that is currently being placed by the player
+        private bool placing = false;
 
         public int[,] field = new int[10, 10];
 
@@ -48,11 +49,22 @@ namespace seabattle
             Console.WriteLine("Field Initialized Successfully.");
         }
 
-
+        private void Place(int xcoord,int ycoord, int ship) {
+            field[xcoord, ycoord] = ship;
+            placing = false;
+        }
         private void button_Click(object sender, EventArgs e)
         {
             Button b = (Button)sender; //type-cast the sender object to button to work with it
+          //  string fieldName = (string)b.Name;
+            int xcoord = Int16.Parse(b.AccessibleDescription);
+            int ycoord = Int16.Parse(b.AccessibleName);  // i am sorry
+            
 
+            if (placing) {
+                Place(xcoord, ycoord,selectedShip);
+                Console.WriteLine("placed a " + selectedShip + " at " + xcoord + " " + ycoord);
+            }
 
 
         }
@@ -64,12 +76,10 @@ namespace seabattle
 
         private void placeButtons_Click(object sender, EventArgs e)
         {
+            placing = true;
             Button b = (Button)sender; //type-cast the sender object to button to work with it
-            if (b.Name.ToString() == "placeBattleship") {
-                selectedShip = (int)Game.FieldState.battleship; //selects the ship as battleship
-            }
 
-            string shipSelected = b.Name.ToString();
+            string shipSelected = (string)b.Name;
 
             switch (shipSelected) {
                 case "placeBattleship":

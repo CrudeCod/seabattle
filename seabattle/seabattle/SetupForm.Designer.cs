@@ -138,6 +138,8 @@
             // 
             // a1
             // 
+            this.a1.AccessibleDescription = "1";
+            this.a1.AccessibleName = "1";
             this.a1.Location = new System.Drawing.Point(198, 60);
             this.a1.Name = "a1";
             this.a1.Size = new System.Drawing.Size(44, 42);
@@ -147,6 +149,8 @@
             // 
             // b1
             // 
+            this.b1.AccessibleDescription = "2";
+            this.b1.AccessibleName = "1";
             this.b1.Location = new System.Drawing.Point(248, 60);
             this.b1.Name = "b1";
             this.b1.Size = new System.Drawing.Size(44, 42);
@@ -156,6 +160,8 @@
             // 
             // c1
             // 
+            this.c1.AccessibleDescription = "3";
+            this.c1.AccessibleName = "1";
             this.c1.Location = new System.Drawing.Point(298, 60);
             this.c1.Name = "c1";
             this.c1.Size = new System.Drawing.Size(44, 42);
@@ -165,6 +171,8 @@
             // 
             // d1
             // 
+            this.d1.AccessibleDescription = "4";
+            this.d1.AccessibleName = "1";
             this.d1.Location = new System.Drawing.Point(348, 60);
             this.d1.Name = "d1";
             this.d1.Size = new System.Drawing.Size(44, 42);
@@ -174,6 +182,8 @@
             // 
             // e1
             // 
+            this.e1.AccessibleDescription = "5";
+            this.e1.AccessibleName = "1";
             this.e1.Location = new System.Drawing.Point(398, 60);
             this.e1.Name = "e1";
             this.e1.Size = new System.Drawing.Size(44, 42);
@@ -183,6 +193,8 @@
             // 
             // f1
             // 
+            this.f1.AccessibleDescription = "6";
+            this.f1.AccessibleName = "1";
             this.f1.Location = new System.Drawing.Point(448, 60);
             this.f1.Name = "f1";
             this.f1.Size = new System.Drawing.Size(44, 42);
@@ -192,6 +204,8 @@
             // 
             // g1
             // 
+            this.g1.AccessibleDescription = "7";
+            this.g1.AccessibleName = "1";
             this.g1.Location = new System.Drawing.Point(498, 60);
             this.g1.Name = "g1";
             this.g1.Size = new System.Drawing.Size(44, 42);
@@ -201,6 +215,8 @@
             // 
             // h1
             // 
+            this.h1.AccessibleDescription = "8";
+            this.h1.AccessibleName = "1";
             this.h1.Location = new System.Drawing.Point(548, 60);
             this.h1.Name = "h1";
             this.h1.Size = new System.Drawing.Size(44, 42);
@@ -210,6 +226,8 @@
             // 
             // i1
             // 
+            this.i1.AccessibleDescription = "9";
+            this.i1.AccessibleName = "1";
             this.i1.Location = new System.Drawing.Point(598, 60);
             this.i1.Name = "i1";
             this.i1.Size = new System.Drawing.Size(44, 42);
@@ -219,6 +237,8 @@
             // 
             // j1
             // 
+            this.j1.AccessibleDescription = "10";
+            this.j1.AccessibleName = "1";
             this.j1.Location = new System.Drawing.Point(648, 60);
             this.j1.Name = "j1";
             this.j1.Size = new System.Drawing.Size(44, 42);
@@ -228,6 +248,8 @@
             // 
             // a2
             // 
+            this.a2.AccessibleDescription = "1";
+            this.a2.AccessibleName = "2";
             this.a2.Location = new System.Drawing.Point(198, 108);
             this.a2.Name = "a2";
             this.a2.Size = new System.Drawing.Size(44, 42);
@@ -237,6 +259,8 @@
             // 
             // a3
             // 
+            this.a3.AccessibleDescription = "1";
+            this.a3.AccessibleName = "3";
             this.a3.Location = new System.Drawing.Point(198, 156);
             this.a3.Name = "a3";
             this.a3.Size = new System.Drawing.Size(44, 42);
@@ -246,6 +270,8 @@
             // 
             // a4
             // 
+            this.a4.AccessibleDescription = "1";
+            this.a4.AccessibleName = "4";
             this.a4.Location = new System.Drawing.Point(198, 204);
             this.a4.Name = "a4";
             this.a4.Size = new System.Drawing.Size(44, 42);
@@ -255,6 +281,8 @@
             // 
             // a5
             // 
+            this.a5.AccessibleDescription = "1";
+            this.a5.AccessibleName = "5";
             this.a5.Location = new System.Drawing.Point(198, 252);
             this.a5.Name = "a5";
             this.a5.Size = new System.Drawing.Size(44, 42);
@@ -264,6 +292,8 @@
             // 
             // a6
             // 
+            this.a6.AccessibleDescription = "1";
+            this.a6.AccessibleName = "6";
             this.a6.Location = new System.Drawing.Point(198, 300);
             this.a6.Name = "a6";
             this.a6.Size = new System.Drawing.Size(44, 42);
@@ -273,6 +303,8 @@
             // 
             // a7
             // 
+            this.a7.AccessibleDescription = "1";
+            this.a7.AccessibleName = "7";
             this.a7.Location = new System.Drawing.Point(198, 348);
             this.a7.Name = "a7";
             this.a7.Size = new System.Drawing.Size(44, 42);
@@ -282,6 +314,8 @@
             // 
             // a8
             // 
+            this.a8.AccessibleDescription = "1";
+            this.a8.AccessibleName = "8";
             this.a8.Location = new System.Drawing.Point(198, 396);
             this.a8.Name = "a8";
             this.a8.Size = new System.Drawing.Size(44, 42);
@@ -291,6 +325,8 @@
             // 
             // a9
             // 
+            this.a9.AccessibleDescription = "1";
+            this.a9.AccessibleName = "9";
             this.a9.Location = new System.Drawing.Point(198, 444);
             this.a9.Name = "a9";
             this.a9.Size = new System.Drawing.Size(44, 42);
@@ -300,6 +336,8 @@
             // 
             // a10
             // 
+            this.a10.AccessibleDescription = "1";
+            this.a10.AccessibleName = "10";
             this.a10.Location = new System.Drawing.Point(198, 492);
             this.a10.Name = "a10";
             this.a10.Size = new System.Drawing.Size(44, 42);
@@ -309,6 +347,8 @@
             // 
             // b3
             // 
+            this.b3.AccessibleDescription = "2";
+            this.b3.AccessibleName = "3";
             this.b3.Location = new System.Drawing.Point(248, 156);
             this.b3.Name = "b3";
             this.b3.Size = new System.Drawing.Size(44, 42);
@@ -318,6 +358,8 @@
             // 
             // c2
             // 
+            this.c2.AccessibleDescription = "3";
+            this.c2.AccessibleName = "2";
             this.c2.Location = new System.Drawing.Point(298, 108);
             this.c2.Name = "c2";
             this.c2.Size = new System.Drawing.Size(44, 42);
@@ -327,6 +369,8 @@
             // 
             // b2
             // 
+            this.b2.AccessibleDescription = "2";
+            this.b2.AccessibleName = "2";
             this.b2.Location = new System.Drawing.Point(248, 108);
             this.b2.Name = "b2";
             this.b2.Size = new System.Drawing.Size(44, 42);
@@ -336,6 +380,8 @@
             // 
             // d3
             // 
+            this.d3.AccessibleDescription = "4";
+            this.d3.AccessibleName = "3";
             this.d3.Location = new System.Drawing.Point(348, 156);
             this.d3.Name = "d3";
             this.d3.Size = new System.Drawing.Size(44, 42);
@@ -345,6 +391,8 @@
             // 
             // c4
             // 
+            this.c4.AccessibleDescription = "3";
+            this.c4.AccessibleName = "4";
             this.c4.Location = new System.Drawing.Point(298, 204);
             this.c4.Name = "c4";
             this.c4.Size = new System.Drawing.Size(44, 42);
@@ -354,6 +402,8 @@
             // 
             // b4
             // 
+            this.b4.AccessibleDescription = "2";
+            this.b4.AccessibleName = "4";
             this.b4.Location = new System.Drawing.Point(248, 204);
             this.b4.Name = "b4";
             this.b4.Size = new System.Drawing.Size(44, 42);
@@ -363,6 +413,8 @@
             // 
             // c3
             // 
+            this.c3.AccessibleDescription = "3";
+            this.c3.AccessibleName = "3";
             this.c3.Location = new System.Drawing.Point(298, 156);
             this.c3.Name = "c3";
             this.c3.Size = new System.Drawing.Size(44, 42);
@@ -372,6 +424,8 @@
             // 
             // d2
             // 
+            this.d2.AccessibleDescription = "4";
+            this.d2.AccessibleName = "2";
             this.d2.Location = new System.Drawing.Point(348, 108);
             this.d2.Name = "d2";
             this.d2.Size = new System.Drawing.Size(44, 42);
@@ -381,6 +435,8 @@
             // 
             // d4
             // 
+            this.d4.AccessibleDescription = "4";
+            this.d4.AccessibleName = "4";
             this.d4.Location = new System.Drawing.Point(348, 204);
             this.d4.Name = "d4";
             this.d4.Size = new System.Drawing.Size(44, 42);
@@ -390,6 +446,8 @@
             // 
             // e2
             // 
+            this.e2.AccessibleDescription = "5";
+            this.e2.AccessibleName = "2";
             this.e2.Location = new System.Drawing.Point(398, 108);
             this.e2.Name = "e2";
             this.e2.Size = new System.Drawing.Size(44, 42);
@@ -399,6 +457,8 @@
             // 
             // e3
             // 
+            this.e3.AccessibleDescription = "5";
+            this.e3.AccessibleName = "3";
             this.e3.Location = new System.Drawing.Point(398, 156);
             this.e3.Name = "e3";
             this.e3.Size = new System.Drawing.Size(44, 42);
@@ -408,6 +468,8 @@
             // 
             // e4
             // 
+            this.e4.AccessibleDescription = "5";
+            this.e4.AccessibleName = "4";
             this.e4.Location = new System.Drawing.Point(398, 204);
             this.e4.Name = "e4";
             this.e4.Size = new System.Drawing.Size(44, 42);
@@ -417,6 +479,8 @@
             // 
             // b5
             // 
+            this.b5.AccessibleDescription = "2";
+            this.b5.AccessibleName = "5";
             this.b5.Location = new System.Drawing.Point(248, 252);
             this.b5.Name = "b5";
             this.b5.Size = new System.Drawing.Size(44, 42);
@@ -426,6 +490,8 @@
             // 
             // c5
             // 
+            this.c5.AccessibleDescription = "3";
+            this.c5.AccessibleName = "5";
             this.c5.Location = new System.Drawing.Point(298, 252);
             this.c5.Name = "c5";
             this.c5.Size = new System.Drawing.Size(44, 42);
@@ -435,6 +501,8 @@
             // 
             // d5
             // 
+            this.d5.AccessibleDescription = "4";
+            this.d5.AccessibleName = "5";
             this.d5.Location = new System.Drawing.Point(348, 252);
             this.d5.Name = "d5";
             this.d5.Size = new System.Drawing.Size(44, 42);
@@ -444,6 +512,8 @@
             // 
             // e5
             // 
+            this.e5.AccessibleDescription = "5";
+            this.e5.AccessibleName = "5";
             this.e5.Location = new System.Drawing.Point(398, 252);
             this.e5.Name = "e5";
             this.e5.Size = new System.Drawing.Size(44, 42);
@@ -453,6 +523,8 @@
             // 
             // f2
             // 
+            this.f2.AccessibleDescription = "6";
+            this.f2.AccessibleName = "2";
             this.f2.Location = new System.Drawing.Point(448, 108);
             this.f2.Name = "f2";
             this.f2.Size = new System.Drawing.Size(44, 42);
@@ -462,6 +534,8 @@
             // 
             // f3
             // 
+            this.f3.AccessibleDescription = "6";
+            this.f3.AccessibleName = "3";
             this.f3.Location = new System.Drawing.Point(448, 156);
             this.f3.Name = "f3";
             this.f3.Size = new System.Drawing.Size(44, 42);
@@ -471,6 +545,8 @@
             // 
             // f4
             // 
+            this.f4.AccessibleDescription = "6";
+            this.f4.AccessibleName = "4";
             this.f4.Location = new System.Drawing.Point(448, 204);
             this.f4.Name = "f4";
             this.f4.Size = new System.Drawing.Size(44, 42);
@@ -480,6 +556,8 @@
             // 
             // f5
             // 
+            this.f5.AccessibleDescription = "6";
+            this.f5.AccessibleName = "5";
             this.f5.Location = new System.Drawing.Point(448, 252);
             this.f5.Name = "f5";
             this.f5.Size = new System.Drawing.Size(44, 42);
@@ -489,6 +567,8 @@
             // 
             // g2
             // 
+            this.g2.AccessibleDescription = "7";
+            this.g2.AccessibleName = "2";
             this.g2.Location = new System.Drawing.Point(498, 108);
             this.g2.Name = "g2";
             this.g2.Size = new System.Drawing.Size(44, 42);
@@ -498,6 +578,8 @@
             // 
             // b6
             // 
+            this.b6.AccessibleDescription = "2";
+            this.b6.AccessibleName = "6";
             this.b6.Location = new System.Drawing.Point(248, 300);
             this.b6.Name = "b6";
             this.b6.Size = new System.Drawing.Size(44, 42);
@@ -507,6 +589,8 @@
             // 
             // b7
             // 
+            this.b7.AccessibleDescription = "2";
+            this.b7.AccessibleName = "7";
             this.b7.Location = new System.Drawing.Point(248, 348);
             this.b7.Name = "b7";
             this.b7.Size = new System.Drawing.Size(44, 42);
@@ -516,6 +600,8 @@
             // 
             // b8
             // 
+            this.b8.AccessibleDescription = "2";
+            this.b8.AccessibleName = "8";
             this.b8.Location = new System.Drawing.Point(248, 396);
             this.b8.Name = "b8";
             this.b8.Size = new System.Drawing.Size(44, 42);
@@ -525,6 +611,8 @@
             // 
             // b9
             // 
+            this.b9.AccessibleDescription = "2";
+            this.b9.AccessibleName = "9";
             this.b9.Location = new System.Drawing.Point(248, 444);
             this.b9.Name = "b9";
             this.b9.Size = new System.Drawing.Size(44, 42);
@@ -534,6 +622,8 @@
             // 
             // b10
             // 
+            this.b10.AccessibleDescription = "2";
+            this.b10.AccessibleName = "10";
             this.b10.Location = new System.Drawing.Point(248, 492);
             this.b10.Name = "b10";
             this.b10.Size = new System.Drawing.Size(44, 42);
@@ -543,6 +633,8 @@
             // 
             // c6
             // 
+            this.c6.AccessibleDescription = "3";
+            this.c6.AccessibleName = "6";
             this.c6.Location = new System.Drawing.Point(298, 300);
             this.c6.Name = "c6";
             this.c6.Size = new System.Drawing.Size(44, 42);
@@ -552,6 +644,8 @@
             // 
             // d6
             // 
+            this.d6.AccessibleDescription = "4";
+            this.d6.AccessibleName = "6";
             this.d6.Location = new System.Drawing.Point(348, 300);
             this.d6.Name = "d6";
             this.d6.Size = new System.Drawing.Size(44, 42);
@@ -561,6 +655,8 @@
             // 
             // e6
             // 
+            this.e6.AccessibleDescription = "5";
+            this.e6.AccessibleName = "6";
             this.e6.Location = new System.Drawing.Point(398, 300);
             this.e6.Name = "e6";
             this.e6.Size = new System.Drawing.Size(44, 42);
@@ -570,6 +666,8 @@
             // 
             // f6
             // 
+            this.f6.AccessibleDescription = "6";
+            this.f6.AccessibleName = "6";
             this.f6.Location = new System.Drawing.Point(448, 300);
             this.f6.Name = "f6";
             this.f6.Size = new System.Drawing.Size(44, 42);
@@ -579,6 +677,8 @@
             // 
             // c7
             // 
+            this.c7.AccessibleDescription = "3";
+            this.c7.AccessibleName = "7";
             this.c7.Location = new System.Drawing.Point(298, 348);
             this.c7.Name = "c7";
             this.c7.Size = new System.Drawing.Size(44, 42);
@@ -588,6 +688,8 @@
             // 
             // d7
             // 
+            this.d7.AccessibleDescription = "4";
+            this.d7.AccessibleName = "7";
             this.d7.Location = new System.Drawing.Point(348, 348);
             this.d7.Name = "d7";
             this.d7.Size = new System.Drawing.Size(44, 42);
@@ -597,6 +699,8 @@
             // 
             // e7
             // 
+            this.e7.AccessibleDescription = "5";
+            this.e7.AccessibleName = "7";
             this.e7.Location = new System.Drawing.Point(398, 348);
             this.e7.Name = "e7";
             this.e7.Size = new System.Drawing.Size(44, 42);
@@ -606,6 +710,8 @@
             // 
             // f7
             // 
+            this.f7.AccessibleDescription = "6";
+            this.f7.AccessibleName = "7";
             this.f7.Location = new System.Drawing.Point(448, 348);
             this.f7.Name = "f7";
             this.f7.Size = new System.Drawing.Size(44, 42);
@@ -615,6 +721,8 @@
             // 
             // c8
             // 
+            this.c8.AccessibleDescription = "3";
+            this.c8.AccessibleName = "8";
             this.c8.Location = new System.Drawing.Point(298, 396);
             this.c8.Name = "c8";
             this.c8.Size = new System.Drawing.Size(44, 42);
@@ -624,6 +732,8 @@
             // 
             // d8
             // 
+            this.d8.AccessibleDescription = "4";
+            this.d8.AccessibleName = "8";
             this.d8.Location = new System.Drawing.Point(348, 396);
             this.d8.Name = "d8";
             this.d8.Size = new System.Drawing.Size(44, 42);
@@ -633,6 +743,8 @@
             // 
             // e8
             // 
+            this.e8.AccessibleDescription = "5";
+            this.e8.AccessibleName = "8";
             this.e8.Location = new System.Drawing.Point(398, 396);
             this.e8.Name = "e8";
             this.e8.Size = new System.Drawing.Size(44, 42);
@@ -642,6 +754,8 @@
             // 
             // f8
             // 
+            this.f8.AccessibleDescription = "6";
+            this.f8.AccessibleName = "8";
             this.f8.Location = new System.Drawing.Point(448, 396);
             this.f8.Name = "f8";
             this.f8.Size = new System.Drawing.Size(44, 42);
@@ -651,6 +765,8 @@
             // 
             // c9
             // 
+            this.c9.AccessibleDescription = "3";
+            this.c9.AccessibleName = "9";
             this.c9.Location = new System.Drawing.Point(298, 444);
             this.c9.Name = "c9";
             this.c9.Size = new System.Drawing.Size(44, 42);
@@ -660,6 +776,8 @@
             // 
             // d9
             // 
+            this.d9.AccessibleDescription = "4";
+            this.d9.AccessibleName = "9";
             this.d9.Location = new System.Drawing.Point(348, 444);
             this.d9.Name = "d9";
             this.d9.Size = new System.Drawing.Size(44, 42);
@@ -669,6 +787,8 @@
             // 
             // e9
             // 
+            this.e9.AccessibleDescription = "5";
+            this.e9.AccessibleName = "9";
             this.e9.Location = new System.Drawing.Point(398, 444);
             this.e9.Name = "e9";
             this.e9.Size = new System.Drawing.Size(44, 42);
@@ -678,6 +798,8 @@
             // 
             // f9
             // 
+            this.f9.AccessibleDescription = "6";
+            this.f9.AccessibleName = "9";
             this.f9.Location = new System.Drawing.Point(448, 444);
             this.f9.Name = "f9";
             this.f9.Size = new System.Drawing.Size(44, 42);
@@ -687,6 +809,8 @@
             // 
             // c10
             // 
+            this.c10.AccessibleDescription = "3";
+            this.c10.AccessibleName = "10";
             this.c10.Location = new System.Drawing.Point(298, 492);
             this.c10.Name = "c10";
             this.c10.Size = new System.Drawing.Size(44, 42);
@@ -696,6 +820,8 @@
             // 
             // d10
             // 
+            this.d10.AccessibleDescription = "4";
+            this.d10.AccessibleName = "10";
             this.d10.Location = new System.Drawing.Point(348, 492);
             this.d10.Name = "d10";
             this.d10.Size = new System.Drawing.Size(44, 42);
@@ -705,6 +831,8 @@
             // 
             // e10
             // 
+            this.e10.AccessibleDescription = "5";
+            this.e10.AccessibleName = "10";
             this.e10.Location = new System.Drawing.Point(398, 492);
             this.e10.Name = "e10";
             this.e10.Size = new System.Drawing.Size(44, 42);
@@ -714,6 +842,8 @@
             // 
             // f10
             // 
+            this.f10.AccessibleDescription = "6";
+            this.f10.AccessibleName = "10";
             this.f10.Location = new System.Drawing.Point(448, 492);
             this.f10.Name = "f10";
             this.f10.Size = new System.Drawing.Size(44, 42);
@@ -723,6 +853,8 @@
             // 
             // g3
             // 
+            this.g3.AccessibleDescription = "7";
+            this.g3.AccessibleName = "3";
             this.g3.Location = new System.Drawing.Point(498, 156);
             this.g3.Name = "g3";
             this.g3.Size = new System.Drawing.Size(44, 42);
@@ -732,6 +864,8 @@
             // 
             // g4
             // 
+            this.g4.AccessibleDescription = "7";
+            this.g4.AccessibleName = "4";
             this.g4.Location = new System.Drawing.Point(498, 204);
             this.g4.Name = "g4";
             this.g4.Size = new System.Drawing.Size(44, 42);
@@ -741,6 +875,8 @@
             // 
             // g6
             // 
+            this.g6.AccessibleDescription = "7";
+            this.g6.AccessibleName = "6";
             this.g6.Location = new System.Drawing.Point(498, 300);
             this.g6.Name = "g6";
             this.g6.Size = new System.Drawing.Size(44, 42);
@@ -750,6 +886,8 @@
             // 
             // g5
             // 
+            this.g5.AccessibleDescription = "7";
+            this.g5.AccessibleName = "5";
             this.g5.Location = new System.Drawing.Point(498, 252);
             this.g5.Name = "g5";
             this.g5.Size = new System.Drawing.Size(44, 42);
@@ -759,6 +897,8 @@
             // 
             // g7
             // 
+            this.g7.AccessibleDescription = "7";
+            this.g7.AccessibleName = "7";
             this.g7.Location = new System.Drawing.Point(498, 348);
             this.g7.Name = "g7";
             this.g7.Size = new System.Drawing.Size(44, 42);
@@ -768,6 +908,8 @@
             // 
             // g8
             // 
+            this.g8.AccessibleDescription = "7";
+            this.g8.AccessibleName = "8";
             this.g8.Location = new System.Drawing.Point(498, 396);
             this.g8.Name = "g8";
             this.g8.Size = new System.Drawing.Size(44, 42);
@@ -777,6 +919,8 @@
             // 
             // g9
             // 
+            this.g9.AccessibleDescription = "7";
+            this.g9.AccessibleName = "9";
             this.g9.Location = new System.Drawing.Point(498, 444);
             this.g9.Name = "g9";
             this.g9.Size = new System.Drawing.Size(44, 42);
@@ -786,6 +930,8 @@
             // 
             // g10
             // 
+            this.g10.AccessibleDescription = "7";
+            this.g10.AccessibleName = "10";
             this.g10.Location = new System.Drawing.Point(498, 492);
             this.g10.Name = "g10";
             this.g10.Size = new System.Drawing.Size(44, 42);
@@ -795,6 +941,8 @@
             // 
             // h2
             // 
+            this.h2.AccessibleDescription = "8";
+            this.h2.AccessibleName = "2";
             this.h2.Location = new System.Drawing.Point(548, 108);
             this.h2.Name = "h2";
             this.h2.Size = new System.Drawing.Size(44, 42);
@@ -804,6 +952,8 @@
             // 
             // h3
             // 
+            this.h3.AccessibleDescription = "8";
+            this.h3.AccessibleName = "3";
             this.h3.Location = new System.Drawing.Point(548, 156);
             this.h3.Name = "h3";
             this.h3.Size = new System.Drawing.Size(44, 42);
@@ -813,6 +963,8 @@
             // 
             // h4
             // 
+            this.h4.AccessibleDescription = "8";
+            this.h4.AccessibleName = "4";
             this.h4.Location = new System.Drawing.Point(548, 204);
             this.h4.Name = "h4";
             this.h4.Size = new System.Drawing.Size(44, 42);
@@ -822,6 +974,8 @@
             // 
             // h5
             // 
+            this.h5.AccessibleDescription = "8";
+            this.h5.AccessibleName = "5";
             this.h5.Location = new System.Drawing.Point(548, 252);
             this.h5.Name = "h5";
             this.h5.Size = new System.Drawing.Size(44, 42);
@@ -831,6 +985,8 @@
             // 
             // h6
             // 
+            this.h6.AccessibleDescription = "8";
+            this.h6.AccessibleName = "6";
             this.h6.Location = new System.Drawing.Point(548, 300);
             this.h6.Name = "h6";
             this.h6.Size = new System.Drawing.Size(44, 42);
@@ -840,6 +996,8 @@
             // 
             // h7
             // 
+            this.h7.AccessibleDescription = "8";
+            this.h7.AccessibleName = "7";
             this.h7.Location = new System.Drawing.Point(548, 348);
             this.h7.Name = "h7";
             this.h7.Size = new System.Drawing.Size(44, 42);
@@ -849,6 +1007,8 @@
             // 
             // h8
             // 
+            this.h8.AccessibleDescription = "8";
+            this.h8.AccessibleName = "8";
             this.h8.Location = new System.Drawing.Point(548, 396);
             this.h8.Name = "h8";
             this.h8.Size = new System.Drawing.Size(44, 42);
@@ -858,6 +1018,8 @@
             // 
             // h9
             // 
+            this.h9.AccessibleDescription = "8";
+            this.h9.AccessibleName = "9";
             this.h9.Location = new System.Drawing.Point(548, 444);
             this.h9.Name = "h9";
             this.h9.Size = new System.Drawing.Size(44, 42);
@@ -867,6 +1029,8 @@
             // 
             // h10
             // 
+            this.h10.AccessibleDescription = "8";
+            this.h10.AccessibleName = "10";
             this.h10.Location = new System.Drawing.Point(548, 492);
             this.h10.Name = "h10";
             this.h10.Size = new System.Drawing.Size(44, 42);
@@ -876,6 +1040,8 @@
             // 
             // i3
             // 
+            this.i3.AccessibleDescription = "9";
+            this.i3.AccessibleName = "3";
             this.i3.Location = new System.Drawing.Point(598, 156);
             this.i3.Name = "i3";
             this.i3.Size = new System.Drawing.Size(44, 42);
@@ -885,6 +1051,8 @@
             // 
             // j2
             // 
+            this.j2.AccessibleDescription = "10";
+            this.j2.AccessibleName = "2";
             this.j2.Location = new System.Drawing.Point(648, 108);
             this.j2.Name = "j2";
             this.j2.Size = new System.Drawing.Size(44, 42);
@@ -894,6 +1062,8 @@
             // 
             // i2
             // 
+            this.i2.AccessibleDescription = "9";
+            this.i2.AccessibleName = "2";
             this.i2.Location = new System.Drawing.Point(598, 108);
             this.i2.Name = "i2";
             this.i2.Size = new System.Drawing.Size(44, 42);
@@ -903,6 +1073,8 @@
             // 
             // j3
             // 
+            this.j3.AccessibleDescription = "10";
+            this.j3.AccessibleName = "3";
             this.j3.Location = new System.Drawing.Point(648, 156);
             this.j3.Name = "j3";
             this.j3.Size = new System.Drawing.Size(44, 42);
@@ -912,6 +1084,8 @@
             // 
             // j5
             // 
+            this.j5.AccessibleDescription = "10";
+            this.j5.AccessibleName = "5";
             this.j5.Location = new System.Drawing.Point(648, 252);
             this.j5.Name = "j5";
             this.j5.Size = new System.Drawing.Size(44, 42);
@@ -921,6 +1095,8 @@
             // 
             // i5
             // 
+            this.i5.AccessibleDescription = "9";
+            this.i5.AccessibleName = "5";
             this.i5.Location = new System.Drawing.Point(598, 252);
             this.i5.Name = "i5";
             this.i5.Size = new System.Drawing.Size(44, 42);
@@ -930,6 +1106,8 @@
             // 
             // j4
             // 
+            this.j4.AccessibleDescription = "10";
+            this.j4.AccessibleName = "4";
             this.j4.Location = new System.Drawing.Point(648, 204);
             this.j4.Name = "j4";
             this.j4.Size = new System.Drawing.Size(44, 42);
@@ -939,6 +1117,8 @@
             // 
             // i4
             // 
+            this.i4.AccessibleDescription = "9";
+            this.i4.AccessibleName = "4";
             this.i4.Location = new System.Drawing.Point(598, 204);
             this.i4.Name = "i4";
             this.i4.Size = new System.Drawing.Size(44, 42);
@@ -948,6 +1128,8 @@
             // 
             // i6
             // 
+            this.i6.AccessibleDescription = "9";
+            this.i6.AccessibleName = "6";
             this.i6.Location = new System.Drawing.Point(598, 300);
             this.i6.Name = "i6";
             this.i6.Size = new System.Drawing.Size(44, 42);
@@ -957,6 +1139,8 @@
             // 
             // j6
             // 
+            this.j6.AccessibleDescription = "10";
+            this.j6.AccessibleName = "6";
             this.j6.Location = new System.Drawing.Point(648, 300);
             this.j6.Name = "j6";
             this.j6.Size = new System.Drawing.Size(44, 42);
@@ -966,6 +1150,8 @@
             // 
             // j8
             // 
+            this.j8.AccessibleDescription = "10";
+            this.j8.AccessibleName = "8";
             this.j8.Location = new System.Drawing.Point(648, 396);
             this.j8.Name = "j8";
             this.j8.Size = new System.Drawing.Size(44, 42);
@@ -975,6 +1161,8 @@
             // 
             // i8
             // 
+            this.i8.AccessibleDescription = "9";
+            this.i8.AccessibleName = "8";
             this.i8.Location = new System.Drawing.Point(598, 396);
             this.i8.Name = "i8";
             this.i8.Size = new System.Drawing.Size(44, 42);
@@ -984,6 +1172,8 @@
             // 
             // j7
             // 
+            this.j7.AccessibleDescription = "10";
+            this.j7.AccessibleName = "7";
             this.j7.Location = new System.Drawing.Point(648, 348);
             this.j7.Name = "j7";
             this.j7.Size = new System.Drawing.Size(44, 42);
@@ -993,6 +1183,8 @@
             // 
             // i7
             // 
+            this.i7.AccessibleDescription = "9";
+            this.i7.AccessibleName = "7";
             this.i7.Location = new System.Drawing.Point(598, 348);
             this.i7.Name = "i7";
             this.i7.Size = new System.Drawing.Size(44, 42);
@@ -1002,6 +1194,8 @@
             // 
             // i9
             // 
+            this.i9.AccessibleDescription = "9";
+            this.i9.AccessibleName = "9";
             this.i9.Location = new System.Drawing.Point(598, 444);
             this.i9.Name = "i9";
             this.i9.Size = new System.Drawing.Size(44, 42);
@@ -1011,6 +1205,8 @@
             // 
             // j9
             // 
+            this.j9.AccessibleDescription = "10";
+            this.j9.AccessibleName = "9";
             this.j9.Location = new System.Drawing.Point(648, 444);
             this.j9.Name = "j9";
             this.j9.Size = new System.Drawing.Size(44, 42);
@@ -1020,6 +1216,8 @@
             // 
             // i10
             // 
+            this.i10.AccessibleDescription = "9";
+            this.i10.AccessibleName = "10";
             this.i10.Location = new System.Drawing.Point(598, 492);
             this.i10.Name = "i10";
             this.i10.Size = new System.Drawing.Size(44, 42);
@@ -1029,6 +1227,8 @@
             // 
             // j10
             // 
+            this.j10.AccessibleDescription = "10";
+            this.j10.AccessibleName = "10";
             this.j10.Location = new System.Drawing.Point(648, 492);
             this.j10.Name = "j10";
             this.j10.Size = new System.Drawing.Size(44, 42);
@@ -1058,7 +1258,7 @@
             // 
             // placeBattleship
             // 
-            this.placeBattleship.Location = new System.Drawing.Point(12, 582);
+            this.placeBattleship.Location = new System.Drawing.Point(69, 582);
             this.placeBattleship.Name = "placeBattleship";
             this.placeBattleship.Size = new System.Drawing.Size(166, 36);
             this.placeBattleship.TabIndex = 102;
@@ -1068,7 +1268,7 @@
             // 
             // placeCruiser
             // 
-            this.placeCruiser.Location = new System.Drawing.Point(184, 582);
+            this.placeCruiser.Location = new System.Drawing.Point(241, 582);
             this.placeCruiser.Name = "placeCruiser";
             this.placeCruiser.Size = new System.Drawing.Size(166, 36);
             this.placeCruiser.TabIndex = 103;
@@ -1078,7 +1278,7 @@
             // 
             // placeDestroyer
             // 
-            this.placeDestroyer.Location = new System.Drawing.Point(356, 582);
+            this.placeDestroyer.Location = new System.Drawing.Point(413, 582);
             this.placeDestroyer.Name = "placeDestroyer";
             this.placeDestroyer.Size = new System.Drawing.Size(166, 36);
             this.placeDestroyer.TabIndex = 104;
@@ -1088,7 +1288,7 @@
             // 
             // placeSubmarine
             // 
-            this.placeSubmarine.Location = new System.Drawing.Point(528, 582);
+            this.placeSubmarine.Location = new System.Drawing.Point(585, 582);
             this.placeSubmarine.Name = "placeSubmarine";
             this.placeSubmarine.Size = new System.Drawing.Size(166, 36);
             this.placeSubmarine.TabIndex = 105;
@@ -1096,7 +1296,7 @@
             this.placeSubmarine.UseVisualStyleBackColor = true;
             this.placeSubmarine.Click += new System.EventHandler(this.placeButtons_Click);
             // 
-            // MainForm
+            // SetupForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -1208,7 +1408,7 @@
             this.Controls.Add(this.b1);
             this.Controls.Add(this.a1);
             this.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.Name = "MainForm";
+            this.Name = "SetupForm";
             this.Text = "MainForm";
             this.ResumeLayout(false);
             this.PerformLayout();
